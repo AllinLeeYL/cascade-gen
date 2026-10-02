@@ -1,2 +1,11 @@
-*.log
-*.png
+__pycache__/
+*.egg-info/
+build/
+.venv/
+.vscode/
+
+# Generated programs
+*.elf
+*.json
+!tests/golden.json
+/elfs/
